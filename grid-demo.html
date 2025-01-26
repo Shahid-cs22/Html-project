@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Teko:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-areas:
+          "m1 m1 m2"
+          "m3 m4 m4"
+          "m5 m5 m5"
+          "m6 m7 m7";
+      }
+
+      .grid-items {
+        border: 1px solid red;
+        /* height:50px; */
+        text-align: center;
+      }
+      .grid-items:nth-child(1) {
+        grid-area: m1; 
+        font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        font-style: normal; 
+      }
+
+      .grid-items:nth-child(2) {
+        grid-area: m2;
+      }
+      .grid-items:nth-child(3) {
+        grid-area: m3;
+      }
+      .grid-items:nth-child(4) {
+        grid-area: m4;
+      }
+      .grid-items:nth-child(5) {
+        grid-area: m5;
+      }
+      .grid-items:nth-child(6) {
+        grid-area: m6;
+      }
+      .grid-items:nth-child(7) {
+        grid-area: m7;
+      }
+
+      .madimi-one-regular {
+        font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-items">Item 1</div>
+      <div class="grid-items">Item 2</div>
+      <div class="grid-items madimi-one-regular">Item 3</div>
+      <div class="grid-items">Item 4</div>
+      <div class="grid-items">Item 5</div>
+      <div class="grid-items">Item 6</div>
+      <div class="grid-items madimi-one-regular">Item 7</div>
+    </div>
+  </body>
+</html>

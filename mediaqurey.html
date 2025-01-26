@@ -1,0 +1,39 @@
+<head>
+    <style>
+      @media (min-width:600px){
+        .one{
+          background-color: yellow;
+          border: 1px solid black;
+          margin: 100px;
+        }
+        p{
+          color: red;
+          font-size: 18px;
+          padding: 20px;
+        }
+      }
+      @media (max-width:600px){
+        .one{
+          background-color: red;
+          border: 3px solid blue;
+          width: 100%;
+        }
+        p{
+          color: black;
+          font-size: 26px;
+          font-weight: bold;
+        }
+        .two{
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="one">
+      <p>Welcome to India</p>
+    </div>
+    <div class="one two">
+      <p>Welcome to America</p>
+    </div>
+  </body>

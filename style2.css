@@ -1,0 +1,47 @@
+ 
+[src]{
+    width: 125px;
+    height:auto;
+    margin-left:15.5cm;
+}
+
+.first{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 20px;
+    color:darkcyan;
+    
+    
+}
+.second{
+    font-size: 20px;
+  
+}
+.third{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    color:darkslategray;
+}
+.four{
+    margin-left:14cm;
+    font-size: 20px;
+}
+.five{
+    text-align: center;
+}
+.six{
+    font-size:20px;
+    margin-left:14cm;
+
+}
+.seven{
+    text-align: center;
+}
+.eight{
+    margin-left: 630px;
+}
+.nine{
+    margin-left: 630px;
+}

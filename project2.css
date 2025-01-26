@@ -1,0 +1,12 @@
+*{
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    border: solid red;
+}
+.parent1{
+    background-color: black;
+}

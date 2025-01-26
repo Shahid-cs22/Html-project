@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<style>
+    * {
+        padding: 0px;
+        margin: 0ox;
+        box-sizing: border-boxS;
+    }
+</style>
+
+<body>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Employee Id</th>
+                <th>Employee Name</th>
+                <th>Employee mail</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>100</td>
+                <td>John</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>Alex</td>
+                <td>alex@example.com</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Teenu</td>
+                <td>teenu@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button class="btn btn-info">
+        <span class="spinner-border spinner-border-sm"></span>
+    </button>
+    <button class="btn btn-info">
+        <span class="spinner-border spinner-border-sm"></span>
+        Loading..
+    </button>
+    <button class="btn btn-info" disabled>
+        <span class="spinner-border spinner-border-sm"></span>
+        Loading..
+    </button>
+    <button class="btn btn-info" disabled>
+        <span class="spinner-grow spinner-grow-sm"></span>
+        Loading..
+    </button>
+
+    <p>Image at the top</p>
+    <div class="card" style="width:400px; height:670px">
+        <img class="card-img-top" src="https://i.imgur.com/hAZyq8i.jpg" alt="Card image" style="width:100%">
+        <div class="card-body">
+            <h4 class="card-title">Effile Tower</h4>
+            <p class="card-text">Some text</p>
+            <a href="#" class="btn btn-primary">Paris</a>
+        </div>
+    </div>
+    <br>
+    <p>Image at the bottom </p>
+    <div class="card" style="width:400px; height:670px">
+        <div class="card-body">
+            <h4 class="card-title">Effile tower</h4>
+            <p class="card-text">Some text</p>
+            <a href="#" class="btn btn-primary">Paris</a>
+        </div>
+        <img class="card-img-bottom" src="https://i.imgur.com/hAZyq8i.jpg" alt="Card image" style="width:100%">
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-info">Front end</button>
+        <button type="button" class="btn btn-info">Backend</button>
+        <div class="btn-group">
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">Database</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Mysql</a>
+                <a class="dropdown-item active" href="#">Oracle</a>
+                <a class="dropdown-item disabled" href="#">Nosql</a>
+            </div>
+        </div>
+    </div>
+
+    <button data-toggle="collapse" data-target="#demo">Collapsible</button>
+    <div id="demo" class="collapse">
+        Some text in collapsible
+    </div>
+
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header">
+                <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                    Accordion #1
+                </a>
+            </div>
+            <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                <div class="card-body">Content for Accordion #1.</div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                    Accordion #2
+                </a>
+            </div>
+            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                <div class="card-body">Content for Accordion #2.</div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                    Accordion #3
+                </a>
+            </div>
+            <div id="collapseThree" class="collapse" data-parent="#accordion">
+                <div class="card-body"> Content for Accordion #3.</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://i.imgur.com/uHU9ze9.png" alt="Alappuzha" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+                <img src="https://i.imgur.com/6EXeJKA.png" alt="Kovalam" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+                <img src="https://i.imgur.com/SOLimeX.png" alt="Trivandrum" width="1100" height="500">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-12">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+            <div class="col-sm-4 col-12">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+            <div class="col-sm-4 col-12">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

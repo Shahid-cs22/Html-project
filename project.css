@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    gap: 20px;
+    height: 90px;
+    width: 100%;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around
+}
+
+.child1 {
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.container2 {
+    display: flex;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    gap: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+
+}
+
+.button1 {
+    padding: 8px 25px;
+    align-content: center;
+    cursor: pointer;
+    background-color: white;
+    font-size: 18px;
+}
+
+
+
+
+.text1 {
+
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    font-weight: 300;
+    height: auto;
+    width: 41%;
+    background-color: #ffc41f24;
+}
+
+.text1 p {
+    padding: 10px;
+}
+
+.text2 {
+
+    font-size: 50px;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.text3 {
+    color: blueviolet;
+    font-size: 24px;
+}
+
+.container3 {
+    text-align: start;
+    
+
+}
+
+.container4 {}
+
+.image1 {
+    height: 400px;
+    width: auto;
+    gap:35px;
+}
+
+.image1::after{
+    content: 'hello';
+    color:red;
+}
+
+.parent {
+    display: flex;
+
+
+}
+
+.desg ::after {
+    content: 'dgg';
+    border-right:3px solid red;
+    transform:skew(45deg)
+}
+
+.navlogo{
+    font-size: 2rem;
+}

@@ -1,0 +1,46 @@
+.container{
+    display: grid;
+    grid-template-areas:'one two three'
+    'one four five';
+    grid-gap: 10px;
+    height: 300px;
+
+}
+ 
+
+   .image1{
+    height:auto;
+    width
+
+}
+.child1{
+    grid-area:one;
+
+}
+
+.image2{
+    height:275px;
+    width: 350px;
+}
+.child2{
+   grid-area: two;
+}
+
+.image4{
+    height: 500px;
+    width: 600px;
+
+}
+.child3{
+   grid-area: three;
+}
+.child4{
+    grid-area: four;
+    
+}
+.child5{
+   grid-area:five;
+
+
+
+}

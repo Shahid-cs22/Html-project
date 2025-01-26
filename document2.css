@@ -1,0 +1,44 @@
+.page{
+    border:solid;
+    background-color:lightgoldenrodyellow;
+    padding: 20px;
+    width:35%;
+    height:440px;
+    text-align: center;
+    border-color: black;
+    margin-left:420px;
+}
+[src]{
+    height: 150px;
+    width: auto;
+}
+.first{
+    font-size: 9mm;
+    color: darkolivegreen;
+}
+.second{
+    font-size:5mm ;
+    color:darkolivegreen;
+
+}
+.third{
+    text-align: center;
+   
+}
+.four{
+    font-size:5mm;
+    color:darkolivegreen;
+}
+.five{
+    text-align: center;
+}
+.six{
+    text-align: center;
+   background-color:darkgray;
+    
+}
+.seven{
+    text-align: center;
+ 
+     
+}
